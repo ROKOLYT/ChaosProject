@@ -22,17 +22,19 @@ This bot is designed to automate daily chaos dungeon runs in Lost Ark on all cha
 ```
 
 # WARNING
-    You have to change the code of pyautogui not to raise ImageNotFoundException.
-    Find pyautogui/__init__ and change raise ImageNotFoundException -> return None
+You have to change the code of pyautogui not to raise ImageNotFoundException.
+Find pyautogui/__init__ and change
+
+    raise ImageNotFoundException -> return None
     
 # Usage
 ```
 python bot.py
 ```
-    Ensure your screen resolution is set to 1920x1080 and the aspect ratio is 21:9.
-    Launch Lost Ark and navigate to the first character.
-    Start the bot.
-    The bot will perform chaos dungeon runs on all characters.
+Ensure your screen resolution is set to 1920x1080 and the aspect ratio is 21:9.
+Launch Lost Ark and navigate to the first character.
+Start the bot.
+The bot will perform chaos dungeon runs on all characters.
 
 # Disclaimer
 
