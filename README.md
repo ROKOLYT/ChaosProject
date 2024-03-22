@@ -4,7 +4,7 @@ This bot is designed to automate daily chaos dungeon runs in Lost Ark on all cha
 # Features
 
 + Automated Chaos Dungeon Runs: Perform daily chaos dungeon runs on all characters automatically.
-+ Automated Guild Daily: Perform daily guild donation.
++ Automated Guild Daily: Perform daily guild donations.
 + Undetectable Operation: The bot operates separately from the game's code, ensuring undetectability.
 + Smart Logic and Checks: Implements logic and checks to ensure smooth operation and adaptability to changes.
 
@@ -16,13 +16,16 @@ This bot is designed to automate daily chaos dungeon runs in Lost Ark on all cha
 # Installation
 
 ```
-    git clone https://github.com/ROKOLYT/ChaosProject.git
-    cd ChaosProject
-    pip install -r requirements.txt
+git clone https://github.com/ROKOLYT/ChaosProject.git
+cd ChaosProject
+```
+Only for those with an NVIDIA GPU ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121```
+```
+pip install -r requirements.txt
 ```
 
 # WARNING
-You have to change the code of pyautogui not to raise ImageNotFoundException.
+You have to change the code of pyautogui so as not to raise ImageNotFoundException.
 Find pyautogui/__init__ and change
 
     raise ImageNotFoundException -> return None
@@ -41,7 +44,7 @@ The bot will perform chaos dungeon runs on all characters.
 This bot is intended for educational purposes only. Use at your own risk. We do not take responsibility for any consequences resulting from the use of this bot. Always abide by the terms of service and rules set forth by the game developers.
 # Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or submit a pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have any suggestions, improvements, or feature requests.
 # License
 
 This project is licensed under the MIT License.
